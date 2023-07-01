@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+
+
+    </head>
+    <body>
+        <center>
+            <script>
+                const food={
+                    nuggets: 8.5,
+                    burger: 6,
+                    coke: 2,
+                };
+
+                document.getElementById("food1").innerHTML = food.nuggets;
+                document.getElementById("food2").innerHTML = food.burger;
+                document.getElementById("food3").innerHTML = food.coke;
+
+            </script>
+            <table border="1" width="500">
+                <tr>
+                    <td align="center" colspan="3">Delicious Restaurant</td>
+                </tr>
+                <tr>
+                    <td align="center">Nuggets</td>
+                    <td align="center">Price of Nuggets:<div id="food1"></div></td>
+                </tr>
+                <tr>
+                    <td align="center">Burger</td>
+                    <td align="center">Price of Burger:<div id="food2"></div></td>
+                </tr>
+                <tr>
+                    <td align="center">Coke</td>
+                    <td align="center">Price of Coke:<div id="food3"></div></td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
